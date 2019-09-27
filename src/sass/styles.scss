@@ -1,4 +1,12 @@
 /*
    Import partials below
 */
-@import './normalize';
+@import './normalize.scss';
+@import './helpers/fonts.scss';
+@import './helpers/variables.scss';
+@import './components/header.scss';
+@import './components/section_1.scss';
+@import './components/section_2.scss';
+@import './components/section_3.scss';
+@import './components/section_4.scss';
+@import './components/footer.scss';
