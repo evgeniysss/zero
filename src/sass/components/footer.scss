@@ -1,12 +1,14 @@
 .section__footer-box {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   height: 975px;
   background-image: url(../../images/img__footer-bg--320.jpg);
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 60px;
+  padding-bottom: 0px;
 }
 
 .section__header-footer-section {
@@ -48,12 +50,15 @@
   right: 25px;
 }
 
+/* form-box */
+
 .footer__form-box {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   height: 370px;
+  margin-bottom: 58px;
 }
 
 .form__all {
@@ -105,19 +110,135 @@
 /* social-box*/
 
 .socials-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 260px;
+  margin-bottom: 45px;
 }
 
 .socials-box__get-in-touch {
 font-size: 24px;
-font-family: "Raleway";
+font-family: $raleway;
 color: rgb(255, 255, 255);
 line-height: 1;
 text-align: center;
+margin: 0;
+margin-bottom: 7px;
 }
 
 .socials-box__text {
+  display: block;
+  font-size: 14px;
+  font-family: $opensans;
+  color: rgba(255, 255, 255, 0.502);
+  line-height: 1.5;
+  text-align: center;
+  padding-left: 23px;
+  padding-right: 23px;
+  margin-bottom: 37px;
+}
 
+.socials__icons {
+  display: flex;
+  justify-content: space-between;
+  width: 158px;
+  margin-bottom: 40px;
+}
+
+.icon__round--socials {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #0098cd;
+  position: relative;
+}
+
+.icon__facebook::before {
+  display: block;
+  content: '';
+  width: 10px;
+  height: 20px;
+  position: absolute;
+  left: 11px;
+  transform: translate(50%,50%);
+  background-image: url("../../images/icon__facebook.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon__twitter::before {
+  display: block;
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 2px;
+  transform: translate(50%,50%);
+  background-image: url("../../images/icon__twitter.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon__linkedin::before {
+  display: block;
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 2px;
+  transform: translate(50%,50%);
+  background-image: url("../../images/icon__linkedin.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon__round--socials-facebook {
+  background-color: #3b5997;
+}
+
+.icon__round--socials-twitter {
+  background-color: #3ec2f3;
+}
+
+.icon__round--socials-linkedin {
+  background-color: #007ab9;
+}
+
+.socials__bottom-text {
+  font-size: 14px;
+  font-family: $opensans;
+  color: rgb(191, 172, 226);
+  font-weight: bold;
+  width: 158px;
+}
+
+.footer__line {
+  display: block;
+  margin: 0 auto;
+  width: 320px;
+  border: 1px solid #464646;
+  color: #585858;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 17px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  // justify-content: space-between;
+  align-items: center;
+  height: 85px;
+}
+
+.copyright__text {
+  font-size: 14px;
+  font-family: $opensans;
+  color: rgba(255, 255, 255, 0.502);
+  line-height: 1.5;
+  margin: 0;
 }
 
 @media (min-width: 768px) {
@@ -133,6 +254,42 @@ text-align: center;
     height: 875px;
     background-image: url(../../images/img__footer-bg--768.jpg);
   }
+
+  .footer__form-box {
+    margin: 0 auto;
+    align-items: center;
+    width: 570px;
+    margin-bottom: 50px;
+  }
+
+  .socials-box {
+    margin-bottom: 25px;
+  }
+
+  .form__top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 570px;
+    margin: 0 auto;
+    margin-bottom: 7px;
+  }
+
+  .name {
+    margin: 0;
+  }
+
+  .form__bottom {
+    width: 570px;
+  }
+
+  .footer__line {
+    width: 768px;
+  }
+
+  .socials-box__text {
+    width: 430px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -141,7 +298,31 @@ text-align: center;
   }
 
   .section__footer-box {
+    flex-direction: column;
     height: 678px;
     background-image: url(../../images/img__footer-bg--1200.jpg);
+  }
+
+  .footer__line {
+    width: 1200px;
+  }
+
+  .column-to-row-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 84px;
+  }
+
+  .socials-box {
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .socials-box__text {
+    text-align: left;
+    padding-left: 0;
   }
 }
