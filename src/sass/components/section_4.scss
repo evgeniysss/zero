@@ -93,11 +93,12 @@
   display: flex;
   justify-content: space-between;
   width: 63px;
+  padding-bottom: 40px;
 }
 
 .padding_bottom {
   padding-bottom: 50px;
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
 }
 
 @media (min-width: 768px) {
@@ -108,5 +109,15 @@
 
   .section__header-text--relative::before {
     left: 37px;
+  }
+
+  .slider__dots {
+    padding-bottom: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .slider__dots {
+    padding-bottom: 126px;
   }
 }

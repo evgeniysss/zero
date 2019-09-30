@@ -449,6 +449,10 @@ template {
   /* Legacy iOS */
 }
 
+header {
+  margin: 0 auto;
+}
+
 .section__header-box {
   background-image: url(../../images/img__header-bg--320.jpg);
   height: 568px;
@@ -615,6 +619,7 @@ img {
   background-color: white;
   padding-top: 60px;
   padding-bottom: 30px;
+  margin: 0 auto;
 }
 
 .section__header {
@@ -742,6 +747,7 @@ img {
   background-color: #31d4e7;
   padding-top: 60px;
   padding-bottom: 60px;
+  margin: 0 auto;
 }
 
 .second-section__text-icon-box {
@@ -832,6 +838,7 @@ img {
   background-color: white;
   padding-top: 0px;
   padding-bottom: 60px;
+  margin: 0 auto;
 }
 
 .padding_top {
@@ -1001,14 +1008,13 @@ img {
 
 .team__item {
   width: 270px;
-  height: 300px;
   list-style: none;
   position: relative;
   margin-bottom: 110px;
 }
 
 .team__item:nth-child(4) {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .team__item:hover .overlay {
@@ -1135,11 +1141,11 @@ img {
   display: flex;
   justify-content: space-between;
   width: 63px;
+  padding-bottom: 40px;
 }
 
 .padding_bottom {
   padding-bottom: 50px;
-  margin-bottom: 50px;
 }
 
 .section__footer-box {
@@ -1518,7 +1524,11 @@ img {
   }
 
   .team__item:nth-child(3) {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+  }
+
+  .team__item:nth-child(4) {
+    margin-bottom: 10px;
   }
 
   .section__header-text--section-fourth {
@@ -1528,6 +1538,10 @@ img {
 
   .section__header-text--relative::before {
     left: 37px;
+  }
+
+  .slider__dots {
+    padding-bottom: 60px;
   }
 
   .device__width {
@@ -1664,6 +1678,10 @@ img {
 
   .team__item {
     margin-bottom: 0px;
+  }
+
+  .slider__dots {
+    padding-bottom: 126px;
   }
 
   .device__width {
