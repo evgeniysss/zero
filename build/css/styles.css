@@ -1534,6 +1534,7 @@ img {
   .section__header-text--section-fourth {
     padding-left: 90px;
     padding-right: 90px;
+    margin-bottom: 35px;
   }
 
   .section__header-text--relative::before {
@@ -1682,6 +1683,10 @@ img {
 
   .slider__dots {
     padding-bottom: 126px;
+  }
+
+  .section__header-text--section-fourth {
+    margin-bottom: 55px;
   }
 
   .device__width {
