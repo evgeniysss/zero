@@ -20,6 +20,7 @@
   text-align: center;
   margin: 0 auto;
   margin-bottom: 25px;
+  position: relative;
 }
 
 .section__header-footer-section::before {
@@ -33,7 +34,7 @@
   padding: 0;
   position: absolute;
   bottom: 9px;
-  right: 234px;
+  right: 126px;
  }
 
 .section__header-footer-section::after {
@@ -47,7 +48,7 @@
   padding: 0;
   position: absolute;
   bottom: 9px;
-  right: 25px;
+  right: -74px;
 }
 
 /* form-box */
