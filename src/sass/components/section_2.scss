@@ -1,0 +1,125 @@
+.section-second {
+  display: flex;
+  flex-direction: column;
+  background-color: #31d4e7;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+}
+
+.second-section__text-icon-box {
+  display: block;
+  margin: 0 auto;
+  width: 320px;
+}
+
+.section__header-second-section {
+  font-size: 18px;
+  font-family: $raleway;
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.section__header-text-second-section {
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  line-height: 1.625;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0;
+  margin-bottom: 38px;
+}
+
+/* icon__box - mac & android */
+
+.icon__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 157px;
+  margin: 0 auto;
+  margin-bottom: 38px;
+}
+
+.icon__round {
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  background-color: #0098cd;
+  position: relative;
+}
+
+.icon__mac::before {
+  display: block;
+  content: '';
+  width: 28px;
+  height: 32px;
+  position: absolute;
+  left: 6px;
+  transform: translate(50%,50%);
+  background-image: url("../../images/icon__mac.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon__android::before {
+  display: block;
+  content: '';
+  width: 30px;
+  height: 36px;
+  position: absolute;
+  left: 5px;
+  transform: translate(50%,50%);
+  background-image: url("../../images/icon__android.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img__keyboard {
+  margin: 0 auto;
+  width: 285px;
+}
+
+@media (min-width: 768px) {
+  .device__width {
+    width: 768px;
+  }
+
+  .section-second {
+    padding-bottom: 108px;
+  }
+
+  .second-section__text-icon-box {
+    width: 550px;
+  }
+
+  .img__keyboard {
+    width: 500px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .device__width {
+    width: 1200px;
+  }
+
+  .section-second {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .section__header-text-second-section {
+    text-align: left;
+    width: 550px;
+  }
+
+  .section-second {
+    padding-bottom: 70px;
+  }
+}
