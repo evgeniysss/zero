@@ -450,7 +450,7 @@ template {
 }
 
 .section__header-box {
-  background-image: url(../../images/img__header-bg--320.jpg);
+  background-image: url(../images/img__header-bg--320.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -532,7 +532,7 @@ template {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  background-image: url(../../images/img_arrow.png);
+  background-image: url(../images/img_arrow.png);
 }
 
 /* Button */
@@ -726,11 +726,11 @@ img {
   padding: 0;
 }
 
-/* width - 768px */
-
 .section-first {
   padding-top: 45px;
 }
+
+/* width - 768px */
 
 /* width - 1200px */
 
@@ -799,7 +799,7 @@ img {
   position: absolute;
   left: 6px;
   transform: translate(50%, 50%);
-  background-image: url("../../images/icon__mac.png");
+  background-image: url("../images/icon__mac.png");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -812,7 +812,7 @@ img {
   position: absolute;
   left: 5px;
   transform: translate(50%, 50%);
-  background-image: url("../../images/icon__android.png");
+  background-image: url("../images/icon__android.png");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -958,7 +958,7 @@ img {
   top: 0px;
   left: 1px;
   transform: translate(50%, 50%);
-  background-image: url("../../images/icon__twitter.png");
+  background-image: url("../images/icon__twitter.png");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -972,7 +972,7 @@ img {
   top: 0px;
   left: 12px;
   transform: translate(50%, 50%);
-  background-image: url("../../images/icon__facebook.png");
+  background-image: url("../images/icon__facebook.png");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -986,7 +986,7 @@ img {
   top: 0px;
   left: 1px;
   transform: translate(50%, 50%);
-  background-image: url("../../images/icon__linkedin.png");
+  background-image: url("../images/icon__linkedin.png");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -1128,7 +1128,7 @@ img {
   position: absolute;
   top: -33px;
   left: 0px;
-  background-image: url(../../images/img__absolute.png);
+  background-image: url(../images/img__absolute.png);
   opacity: .7;
 }
 
@@ -1311,7 +1311,7 @@ img {
   position: absolute;
   left: 11px;
   transform: translate(50%, 50%);
-  background-image: url("../../images/icon__facebook.png");
+  background-image: url("../images/icon__facebook.png");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -1324,7 +1324,7 @@ img {
   position: absolute;
   left: 2px;
   transform: translate(50%, 50%);
-  background-image: url("../../images/icon__twitter.png");
+  background-image: url("../images/icon__twitter.png");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -1337,7 +1337,7 @@ img {
   position: absolute;
   left: 2px;
   transform: translate(50%, 50%);
-  background-image: url("../../images/icon__linkedin.png");
+  background-image: url("../images/icon__linkedin.png");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -1391,7 +1391,7 @@ img {
 
 @media (min-width: 768px) {
   .section__header-box {
-    background-image: url(../../images/img__header-bg--768.jpg);
+    background-image: url(../images/img__header-bg--768.jpg);
     height: 760px;
   }
 
@@ -1481,6 +1481,10 @@ img {
     width: 768px;
   }
 
+  .section-first {
+    padding-top: 65px;
+  }
+
   .margin_bottom {
     margin-bottom: 30px;
   }
@@ -1564,7 +1568,7 @@ img {
 
   .section__footer-box {
     height: 875px;
-    background-image: url(../../images/img__footer-bg--768.jpg);
+    background-image: url(../images/img__footer-bg--768.jpg);
   }
 
   .footer__form-box {
@@ -1614,7 +1618,7 @@ img {
 
 @media (min-width: 1200px) {
   .section__header-box {
-    background-image: url(../../images/img__header-bg--1200.jpg);
+    background-image: url(../images/img__header-bg--1200.jpg);
     height: 758px;
   }
 
@@ -1722,7 +1726,7 @@ img {
   .section__footer-box {
     flex-direction: column;
     height: 678px;
-    background-image: url(../../images/img__footer-bg--1200.jpg);
+    background-image: url(../images/img__footer-bg--1200.jpg);
   }
 
   .footer__line {

@@ -155,12 +155,19 @@ img {
   padding: 0;
 }
 
+.section-first {
+  padding-top: 45px;
+}
 
 /* width - 768px */
 
 @media (min-width: 768px) {
 .device__width {
   width: 768px;
+}
+
+.section-first {
+  padding-top: 65px;
 }
 
 // .section {
@@ -194,16 +201,16 @@ img {
  }
 }
 
-.section-first {
-  padding-top: 45px;
-}
-
 /* width - 1200px */
 
 @media (min-width: 1200px) {
   .device__width {
     width: 1200px;
   }
+
+  // .section-first {
+  //   padding-top: 100px;
+  // }
 
   // .section {
   //   display: flex;

@@ -1,5 +1,5 @@
 .section__header-box {
-  background-image: url(../../images/img__header-bg--320.jpg);
+  background-image: url(../images/img__header-bg--320.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -83,7 +83,7 @@ position: relative;
   position: absolute;
   bottom: 0px;
   left: 0px;
-  background-image: url(../../images/img_arrow.png);
+  background-image: url(../images/img_arrow.png);
  }
 
  /* Button */
@@ -134,7 +134,7 @@ background-color: #7fd9c7;
 
 @media (min-width: 768px) {
   .section__header-box {
-    background-image: url(../../images/img__header-bg--768.jpg);
+    background-image: url(../images/img__header-bg--768.jpg);
     height: 760px;
   }
 
@@ -224,7 +224,7 @@ background-color: #7fd9c7;
 
 @media (min-width: 1200px) {
   .section__header-box {
-    background-image: url(../../images/img__header-bg--1200.jpg);
+    background-image: url(../images/img__header-bg--1200.jpg);
     height: 758px;
   }
 
